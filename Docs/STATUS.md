@@ -13,4 +13,5 @@
 - iOS simulator runtime: NOT_RUN.
 - Physical iPhone runtime / VoiceOver / lifecycle: NOT_RUN.
 - Release readiness: NOT_APPLICABLE to current Development gate.
-- Next: publish exact source snapshot to GitHub, then build/run the same revision in Xcode and fix any platform compiler/runtime findings.
+- Published code checkpoint: `main` commit `714a4fcc8e7825ef8c432a8c6d7b0fd8e5c398d6`; tested local tree and GitHub tree both `00221e1fc7a214f9326898525aa4b0de083c9366`.
+- Next: build/run this code checkpoint in Xcode and fix any platform compiler/runtime findings; then perform simulator and physical-device lifecycle/accessibility checks.
