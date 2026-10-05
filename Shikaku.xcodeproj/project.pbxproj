@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00100000000000000000001 /* ShikakuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000001 /* ShikakuApp.swift */; };
+		B00100000000000000000002 /* GameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000002 /* GameScreen.swift */; };
+		B00100000000000000000003 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000003 /* BoardView.swift */; };
+		B00100000000000000000004 /* AccessibleMoveSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000004 /* AccessibleMoveSheet.swift */; };
+		B00100000000000000000005 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000005 /* GameViewModel.swift */; };
+		B00100000000000000000006 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000006 /* SessionStore.swift */; };
+		B00100000000000000000007 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000007 /* Models.swift */; };
+		B00100000000000000000008 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000008 /* Validator.swift */; };
+		B00100000000000000000009 /* Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00100000000000000000009 /* Solver.swift */; };
+		B0010000000000000000000A /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0010000000000000000000A /* Generator.swift */; };
+		B0010000000000000000000B /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0010000000000000000000B /* GameSession.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F00100000000000000000001 /* ShikakuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShikakuApp.swift; sourceTree = "<group>"; };
+		F00100000000000000000002 /* GameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreen.swift; sourceTree = "<group>"; };
+		F00100000000000000000003 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		F00100000000000000000004 /* AccessibleMoveSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibleMoveSheet.swift; sourceTree = "<group>"; };
+		F00100000000000000000005 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		F00100000000000000000006 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		F00100000000000000000007 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F00100000000000000000008 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		F00100000000000000000009 /* Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solver.swift; sourceTree = "<group>"; };
+		F0010000000000000000000A /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		F0010000000000000000000B /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		F0010000000000000000000C /* Shikaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shikaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		P00100000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G00100000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				G00100000000000000000002 /* App */,
+				G00100000000000000000003 /* Core */,
+				G00100000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G00100000000000000000002 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F00100000000000000000001 /* ShikakuApp.swift */,
+				F00100000000000000000002 /* GameScreen.swift */,
+				F00100000000000000000003 /* BoardView.swift */,
+				F00100000000000000000004 /* AccessibleMoveSheet.swift */,
+				F00100000000000000000005 /* GameViewModel.swift */,
+				F00100000000000000000006 /* SessionStore.swift */,
+			);
+			path = App/Shikaku;
+			sourceTree = "<group>";
+		};
+		G00100000000000000000003 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F00100000000000000000007 /* Models.swift */,
+				F00100000000000000000008 /* Validator.swift */,
+				F00100000000000000000009 /* Solver.swift */,
+				F0010000000000000000000A /* Generator.swift */,
+				F0010000000000000000000B /* GameSession.swift */,
+			);
+			path = Sources/ShikakuCore;
+			sourceTree = "<group>";
+		};
+		G00100000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0010000000000000000000C /* Shikaku.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T00100000000000000000001 /* Shikaku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00100000000000000000002 /* Build configuration list for PBXNativeTarget "Shikaku" */;
+			buildPhases = (
+				P00100000000000000000002 /* Sources */,
+				P00100000000000000000001 /* Frameworks */,
+				P00100000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shikaku;
+			productName = Shikaku;
+			productReference = F0010000000000000000000C /* Shikaku.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		R00100000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					T00100000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = C00100000000000000000001 /* Build configuration list for PBXProject "Shikaku" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G00100000000000000000001;
+			productRefGroup = G00100000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T00100000000000000000001 /* Shikaku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		P00100000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		P00100000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00100000000000000000001 /* ShikakuApp.swift in Sources */,
+				B00100000000000000000002 /* GameScreen.swift in Sources */,
+				B00100000000000000000003 /* BoardView.swift in Sources */,
+				B00100000000000000000004 /* AccessibleMoveSheet.swift in Sources */,
+				B00100000000000000000005 /* GameViewModel.swift in Sources */,
+				B00100000000000000000006 /* SessionStore.swift in Sources */,
+				B00100000000000000000007 /* Models.swift in Sources */,
+				B00100000000000000000008 /* Validator.swift in Sources */,
+				B00100000000000000000009 /* Solver.swift in Sources */,
+				B0010000000000000000000A /* Generator.swift in Sources */,
+				B0010000000000000000000B /* GameSession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D00100000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D00100000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D00100000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Shikaku;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios3kov.shikaku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D00100000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Shikaku;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios3kov.shikaku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C00100000000000000000001 /* Build configuration list for PBXProject "Shikaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00100000000000000000001 /* Debug */,
+				D00100000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00100000000000000000002 /* Build configuration list for PBXNativeTarget "Shikaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00100000000000000000003 /* Debug */,
+				D00100000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = R00100000000000000000001 /* Project object */;
+}
